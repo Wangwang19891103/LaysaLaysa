@@ -1,0 +1,17 @@
+
+# Uncomment this line to define a global platform for your project
+
+platform :ios, ‘8.0’
+source ‘https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target “LaysaLaysa” do
+
+pod 'SDWebImage', '~>3.7'
+pod 'Google-Mobile-Ads-SDK', '~> 7.0'
+pod 'AFNetworking', '~> 2.5'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'CHTCollectionViewWaterfallLayout'
+pod 'JTMaterialSwitch'
+
+end
